@@ -1,5 +1,5 @@
 
-// ===== THEME TOGGLE =====
+// cambio de tema 
 const button = document.querySelector('.theme-toggle');
 const icono = button.querySelector('img');
 
@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
   }
 });
 
-// ===== SLIDER =====
+// slider 
 const track = document.querySelector('.skills_track');
 const cards = document.querySelectorAll('.skill_card');
 
@@ -35,7 +35,7 @@ function animate() {
     position -= speed;
   }
 
-  // reinicio invisible
+  // reinicio invisible skills
   if (Math.abs(position) >= track.scrollWidth / 2) {
     position = 0;
   }
@@ -54,7 +54,7 @@ setTimeout(() => {
 const form = document.querySelector(".form");
 
 form.addEventListener("submit", async (e) => {
-    e.preventDefault(); // Evita que la página se recargue o se vaya a otra web
+    e.preventDefault(); // Evita que la página vaya a otra 
 
     const formData = new FormData(form);
     
@@ -68,11 +68,11 @@ form.addEventListener("submit", async (e) => {
     });
 
     if (response.ok) {
-        // AQUÍ ESTÁ EL TRUCO: Limpiamos el formulario
+        // Limpiamos el formulario
         form.reset(); 
         alert("¡Gracias por tu mensaje, Laura lo recibirá pronto!");
         
-        // También reseteamos el contador de caracteres si lo pusiste
+        // Se resetea contador de caracteres
         const contador = document.getElementById('contador');
         if(contador) contador.textContent = "0 / 500";
     } else {
