@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi portafolio</title>
+    <link rel ="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d0ed081d8e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    </head>
+
+<body>
+    
+<header class="encabezado">
+
+  <a href="#">
+    <h1 class="title">Laura Roballo</h1>
+  </a>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#contact">Contacto</a></li>
+      <li>
+        <button class="theme-toggle" aria-label="Cambiar tema">
+          <img src="img/sol.png" alt="sol">
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+</header>
+
+<main>
+  <section class="principal">
+
+    <div class="principal_content">
+      <h2>Desarrolladora de software</h2>
+      <p class="p_content">
+        Con enfoque en el ciclo de vida del software (SDLC)
+        y creación de arquitecturas de datos sólidas.
+      </p>
+      <div class="principal_buttons">
+        <a href="#projects" class="btn_proyects">Ver proyectos</a>
+        <a href="#contact" class="btn_contacts">Contáctame</a>
+      </div>
+ </div>
+       <img src="img/perfil.png" alt="Foto de perfil" class="profile_photo">
+
+  </section>
+</main>
+
+<section class="projects" id="projects">
+  <div class="projects_title">
+    <h2>Mis proyectos</h2>
+  </div>
+
+  <div class="cards_container"> 
+    <div class="projects_cards">
+      <img src="img/progreso.png" alt="project_one" class="project_one">
+      <div class="projects_content">
+        <h2>Gestión de biblioteca</h2>
+        <p>Sitema para gestionar prestamos, devoluciones y registros de libros.</p>
+        <ul>
+          <li><img src="img/piton.png" alt="Python" class="icon_python"></li>
+          <li><img src="img/fastAPI.png" alt="FastAPI" class="icon_fastapi"></li>
+          <li><img src="img/mysql.png" alt="Mysql" class="icon_mysql"></li>
+          <li><img src="img/html.png" alt="HTML" class="icon_html"></li>
+          <li><img src="img/css.png" alt="CSS" class="icon_css"></li>
+          <li><img src="img/js.webp" alt="JavaScript" class="icon_js  "></li>
+
+        </ul>
+        <div class="project_links">
+          <a href="https://github.com/LauraRoballo/Biblioteca.git"><button class="gitHub">GitHub</button></a>
+          <a href="https://github.com/LauraRoballo/Biblioteca/blob/main/README.md"><button class="documentacion">Documentación</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects_cards">
+      <img src="img/progreso.png" alt="project_one" class="project_one">
+      <div class="projects_content">
+        <h2>Sistema bancario</h2>
+        <p>Aplicación web para gestionar cuentas, transacciones y movimientos financieros.</p>
+        <ul>
+          <li><img src="img/java.png" alt="Java" class="icon_java"></li>
+          <li><img src="img/spring-boot.png" alt="Spring Boot" class="icon_spring-boot"></li>
+          <li><img src="img/mysql.png" alt="Mysql" class="icon_mysql"></li>
+          <li><img src="img/html.png" alt="HTML" class="icon_html"></li>
+          <li><img src="img/css.png" alt="CSS" class="icon_css"></li>
+          <li><img src="img/js.webp" alt="JavaScript" class="icon_js  "></li>
+        </ul>
+        <div class="project_links">
+          <a href="https://github.com/LauraRoballo/Biblioteca.git"><button class="gitHub">GitHub</button></a>
+          <a href="https://github.com/LauraRoballo/Biblioteca/blob/main/README.md"><button class="documentacion">Documentación</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects_cards">
+      <img src="img/progreso.png" alt="project_one" class="project_one">
+      <div class="projects_content">
+        <h2>Reserva de piscina</h2>
+        <p>Aplicación web para gestionar las reservas de horarios de uso de piscina.</p>
+        <ul>
+          <li><img src="img/piton.png" alt="Python" class="icon_python"></li>
+          <li><img src="img/fastAPI.png" alt="FastAPI" class="icon_fastapi"></li>
+          <li><img src="img/mysql.png" alt="Mysql" class="icon_mysql"></li>
+          <li><img src="img/react.png" alt="React" class="icon_react"></li>
+          <li><img src="img/js.webp" alt="JavaScript" class="icon_js  "></li>
+        </ul>
+        <div class="project_links">
+          <a href="https://github.com/LauraRoballo/Biblioteca.git"><button class="gitHub">GitHub</button></a>
+          <a href="https://github.com/LauraRoballo/Biblioteca/blob/main/README.md"><button class="documentacion">Documentación</button></a>
+        </div>
+      </div>
+    </div>
+
+  </div> 
+</section>
+
+<section class="skills" id="skills">
+  <div class="skills_title">
+    <h2 class=>Mis habilidades</h2>
+    <p> 
+      Me enfoco en el desarrollo de software con énfasis en backend, participando en todo el ciclo de vida del software (SDLC), desde el levantamiento de requerimientos y diseño hasta la implementación y mantenimiento de soluciones escalables.
+
+    </p>
+  </div>
+
+  <div class="skills_container" id="skillsSlider">
+
+    <div class="skills_track">
+    
+    <div class ="skill_card">
+      <img src ="img/requerimientos.png" alt="Requerimientos" class="skill_icon">
+      <div class ="skill_text">
+      <h2>Levantamiento de requerimientos</h2>
+      <p> Identificación y documentación formal sobre los requerimientos funcionales y no funcionales del sistema segun la necesidad del cliente.</p>
+    </div>
+    </div>
+
+
+    <div class ="skill_card">
+      <img src ="img/UML.png" alt="UML" class="skill_icon">
+      <div class ="skill_text">
+      <h2>UML</h2>
+      <p> Diagramas de UML para modelar sistemas de software, incluyendo diagramas de casos de uso, diagramas de clases, diagramas de secuencia.</p>
+    </div>
+    </div>
+
+
+
+    <div class ="skill_card">
+      <img src ="img/basedatos.png" alt="Base de datos" class="skill_icon">
+      <div class ="skill_text">
+      <h2> Base de datos </h2>
+      <p> Creación y gestión de bases de datos relacionales, diseño de tablas, relaciones entre entidades, consultas SQL con JOIN.  </p>
+    </div>
+    </div>
+     
+    <div class ="skill_card">
+      <img src ="img/ux_ui.png" alt="UX/UI" class="skill_icon">
+      <div class ="skill_text">
+      <h2>UX/UI</h2>
+      <p> Diseño de interfaces de usuario intuitivas y experiencia de usuario optimizada para aplicaciones web y móviles.</p>
+    </div> 
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact_info"> 
+    
+  
+  <img src="img/contacto_perfil.png" alt="Contacto" class="contact_image">
+
+  <div class="direct_contact">
+  <p><i class="fas fa-envelope"></i> lauradaniela022006@gmail.com </p>
+      <p><i class="fas fa-phone"></i> +57 3227809525</p>
+  </div>
+  </div>
+
+    
+    <form action="https://formspree.io/f/xzdaypwa" method="POST" class="form"> 
+    <h2>Contáctame</h2>
+      <p>Si deseas ponerte en contacto conmigo, puedes enviarme un mensaje a través del siguiente formulario o contactarme por correo electrónico </p>
+    
+      <input type="text" id="name" name="name" placeholder="Escriba su nombre" required>
+      <input type="email" id="email" name="email" required placeholder="Ingrese el correo electrónico">
+      <input type="tel" id="phone" name="phone" required placeholder="Ingrese número de contacto">
+      <input type="text" id="empresa" name="empresa" placeholder="Empresa">
+      <textarea name="text" id="text"> Observaciones </textarea>
+      <button type="submit" class="contact_button">Enviar</button>
+
+    </form>
+
+</section>
+
+<footer>
+  
+    
+    
+<div class="social-media">
+  
+  <a href="mailto:lauradaniela022006@gmail.com?subject=Contacto%20desde%20Portafolio%20Web">
+    <i class="fas fa-envelope"></i> 
+  </a>
+
+  <a href="https://github.com/LauraRoballo" >
+        <i class="fab fa-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/lauraroballo">
+        <i class="fab fa-linkedin"></i>
+  </a>
+
+  <a href="https://wa.link/uyaedp" >
+        <i class="fab fa-whatsapp"></i>
+  </a>
+
+</div>
+
+<div class="nav-section">
+      <a href="#projects">Proyectos</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#contact">Contacto</a>
+</div>
+
+<div class="copy">
+  <p>&copy; 2026 Laura Roballo.</p>
+
+</div>
+    
+
+</footer>
+   <script src="js/main.js"></script>
+</body>
+</html>
